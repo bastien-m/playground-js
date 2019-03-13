@@ -1,0 +1,14 @@
+{
+    "id":           "brand",
+    "path":         "brand",
+    "column":       "brand",
+    "prepare":      "empty_string_as_null",
+    "constraint": [
+        { "datatype": "string", "surface": "lov", "lov": "brand-name" },
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format":       "noop",
+    "label":        "Brand name",
+    "help":         "A long text to describe the field in markdown syntax"
+}

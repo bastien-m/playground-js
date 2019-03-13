@@ -1,0 +1,16 @@
+{
+    "id":           "activities.preferredVisitTime",
+    "structure":    "activities",
+    "path":         "activities[].preferredVisitTime",
+    "column":       "activity.pref_visit_time",
+    "prepare":      "empty_string_as_null",
+    "constraint": [
+        { "datatype": "string", "surface": "not_empty_string" },
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format":       "noop",
+    "label":        "Preferred visit time",
+    "help":         "A long text to describe the field in markdown syntax"
+}
+

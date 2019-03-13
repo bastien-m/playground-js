@@ -1,0 +1,14 @@
+{
+    "id":           "nps",
+    "path":         "nps",
+    "column":       "nps",
+    "prepare":      "empty_string_as_null",
+    "constraint": [
+        { "datatype": "number", "surface":"nps"},
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format":       "noop",
+    "label":        "NPS",
+    "help":         "A long text to describe the field in markdown syntax"
+}

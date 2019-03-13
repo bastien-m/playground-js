@@ -1,0 +1,16 @@
+{
+    "id":           "address.countryCode",
+    "structure":    "address",
+    "path":         "address[].countryCode",
+    "column":       "address.country_code",
+    "prepare":      "empty_string_as_null",
+    "constraint": [
+        { "datatype": "string", "surface": "lov", "lov": "country-code" },
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format":       "noop",
+    "label":        "CountryCode",
+    "help":         "a long text to describe the field in markdown syntax"
+}
+

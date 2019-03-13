@@ -1,0 +1,12 @@
+{
+    "id":           "entryType",
+    "path":         "entryType",
+    "column":       "entry_type",
+    "constraint": [
+        { "datatype": "string", "surface": "in_array", "in_array": ["consumer"] }
+    ],
+    "format":       "noop",
+    "label":        "Document type",
+    "help":         "Constant value set to the string ``consumer``"
+}
+

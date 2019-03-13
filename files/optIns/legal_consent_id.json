@@ -1,0 +1,17 @@
+{
+    "id":           "optIns.legal_consent",
+    "structure":    "optIns",
+    "path":         "optIns[].legalConsent",
+    "column":       "optin.legal_consent_id",
+    "prepare":      "noop",
+
+    "constraint": [
+        { "datatype": "string", "surface": "string_length", "string_length": { "min": 10, "max": 500 } }
+    ],
+
+    "format":       "late-binding",
+    "late-binding": "legal-consent-autocreate",
+
+    "label":        "Optin Legal Consent",
+    "help":         "Legal text displayed and acknowledged by consumer"
+}

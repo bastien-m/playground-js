@@ -1,0 +1,13 @@
+{
+    "id":           "optIns.status",
+    "structure":    "optIns",
+    "path":         "optIns[].optInStatus",
+    "column":       "optin.status",
+    "prepare":      "empty_string_as_null",
+    "constraint": [
+        { "datatype": "number", "surface": "in_array", "in_array": [0,1] }
+    ],
+    "format":       "noop",
+    "label":        "Opt-in Status",
+    "help":         "a long text to describe the field in markdown syntax"
+}

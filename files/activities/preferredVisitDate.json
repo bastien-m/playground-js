@@ -1,0 +1,16 @@
+{
+    "id":           "activities.preferredVisitDate",
+    "structure":    "activities",
+    "path":         "activities[].preferredVisitDate",
+    "column":       "activity.pref_visit_date",
+    "prepare":      "empty_string_as_null",
+    "constraint": [
+        { "datatype": "string", "surface": "datetime", "datetime": {"min": "-P10Y", "max": "+P1Y"} },
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format":       "noop",
+    "label":        "Preferred visit date",
+    "help":         "A long text to describe the field in markdown syntax"
+}
+

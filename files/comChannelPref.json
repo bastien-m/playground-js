@@ -1,0 +1,10 @@
+{
+    "id":           "comChannelPref",
+    "path":         "comChannelPref",
+     "constraint": [
+        { "datatype": "list" }
+    ],
+    "format":       "noop",
+    "label":        "Communication channel preference",
+    "help":         "A long text to describe the field in markdown syntax"
+}

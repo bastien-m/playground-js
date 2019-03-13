@@ -1,0 +1,13 @@
+{
+    "id": "b2e",
+
+    "path": "b2e",
+
+    "constraint": [
+        { "datatype": "collection" , "surface": "array_length", "array_length": { "min": 0, "max": 5 } }
+    ],
+
+    "label": "B2E",
+
+    "help": "a long text to describe the field in markdown syntax"
+}

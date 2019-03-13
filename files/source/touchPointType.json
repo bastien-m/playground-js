@@ -1,0 +1,13 @@
+{
+    "id":           "source.touchPointType",
+    "structure":    "source",
+    "path":         "source[].touchPointType",
+    "column":       "source.touch_point_type",
+    "prepare":      "empty_string_as_null",    
+    "constraint": [
+        { "datatype": "string", "surface": "lov", "lov": "touch-point-source" }
+    ],
+    "format":       "noop",
+    "label":        "Touch Point Type",
+    "help":         "A long text to describe the field in markdown syntax"
+}

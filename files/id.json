@@ -1,0 +1,11 @@
+{
+    "id":           "id",
+    "path":         "id",
+    "column":       "entry_public_id",
+    "constraint": [
+        {   "datatype":     "undefined", "serialize": "uuid_v1" }
+    ],
+    "format":       "noop",
+    "label":        "Identifiant public",
+    "help":         "A long text to describe the field in markdown syntax"
+}

@@ -1,0 +1,14 @@
+{
+    "id":           "languageCode",
+    "path":         "languageCode",
+    "column":       "language_code",
+    "prepare":      "empty_string_as_null",
+    "constraint": [
+        { "datatype": "string", "surface": "lov", "lov": "language-code" },
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format":       "noop",
+    "label":        "Language",
+    "help":         "A long text to describe the field in markdown syntax"
+}

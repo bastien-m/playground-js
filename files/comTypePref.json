@@ -1,0 +1,10 @@
+{
+    "id":           "comTypePref",
+    "path":         "comTypePref",
+     "constraint": [
+        { "datatype": "list" }
+    ],
+    "format":       "noop",
+    "label":        "Communication type preference",
+    "help":         "A long text to describe the field in markdown syntax"
+}

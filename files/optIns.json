@@ -1,0 +1,10 @@
+{
+    "id":           "optIns",
+    "path":         "optIns",
+    "constraint": [
+        { "datatype": "collection", "surface": "array_length", "array_length": { "min": 1, "max": 20 } }
+    ],
+    "label":        "List of Optins",
+    "help":         "a long text to describe the field in markdown syntax"
+}
+

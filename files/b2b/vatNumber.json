@@ -1,0 +1,15 @@
+{
+    "id": "b2b.vatNumber",
+    "structure": "b2b",
+    "path": "b2b[].vatNumber",
+    "column": "b2b.vat_number",
+    "prepare": "empty_string_as_null",
+    "constraint": [
+        { "datatype": "string", "surface": "not_empty_string" },
+        { "datatype": "undefined", "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format": "noop",
+    "label": "VAT number",
+    "help": "A long text to describe the field in markdown syntax"
+}

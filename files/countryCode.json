@@ -1,0 +1,14 @@
+{
+    "id":           "countryCode",
+    "path":         "countryCode",
+    "column":       "country_code",
+    "prepare":      "noop",
+    "constraint": [
+        { "datatype": "string", "surface": "lov", "lov": "country-code" },
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format":       "calcul-countrycode-from-address",
+    "label":        "Country",
+    "help":         "A long text to describe the field in markdown syntax"
+}

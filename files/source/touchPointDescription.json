@@ -1,0 +1,15 @@
+{
+    "id":           "source.touchPointDescription",
+    "structure":    "source",
+    "path":         "source[].touchPointDescription",
+    "column":       "source.touch_point_desc",
+    "prepare":      "empty_string_as_null",    
+    "constraint": [
+        { "datatype": "string", "surface": "string_length", "string_length": { "min": 1, "max": 50 } },
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format":       "noop",
+    "label":        "Touch point description",
+    "help":         "A long text to describe the field in markdown syntax"
+}

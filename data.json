@@ -1,0 +1,17 @@
+{
+    "address": {
+        "address": {
+            "min": 1,
+            "max": 50
+        },
+        "address-2": {
+            "min": 1,
+            "max": 250
+        }
+    },
+    "jobTitle": {
+        "min": 1,
+        "max": 100
+    },
+    ""
+}

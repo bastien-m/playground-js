@@ -1,0 +1,13 @@
+{
+    "id":           "identity.type",
+    "structure":    "identity",
+    "path":         "identity[].type",
+    "column":       "identifier.identifier_type",
+    "prepare":      "noop",
+    "constraint": [
+        { "datatype": "string", "surface": "lov", "lov": "identifiant-type" }
+    ],
+    "format":       "noop",
+    "label":        "Identifiant type",
+    "help":         "A long text to describe the field in markdown syntax"
+}

@@ -1,0 +1,15 @@
+{
+    "id":           "activities.brand",
+    "structure":    "activities",
+    "path":         "activities[].brand",
+    "column":       "activities.brand",
+    "prepare":      "empty_string_as_null",
+    "constraint": [
+        { "datatype": "string", "surface": "lov", "lov": "brand-name" },
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format":       "noop",
+    "label":        "PR Entity Name",
+    "help":         "A long text to describe the field in markdown syntax"
+}

@@ -1,0 +1,13 @@
+{
+    "id":           "preferences.type",
+    "structure":    "preferences",
+    "path":         "preferences[].type",
+    "column":       "preference.preference_type",
+    "prepare":      "noop",
+    "constraint": [
+        { "datatype": "string", "surface": "not_empty_string" }
+    ],
+    "format":       "noop",
+    "label":        "Preferences type",
+    "help":         "A long text to describe the field in markdown syntax"
+}

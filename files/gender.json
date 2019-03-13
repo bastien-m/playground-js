@@ -1,0 +1,14 @@
+{
+    "id":           "gender",
+    "path":         "gender",
+    "column":       "gender",
+    "prepare":      "noop",
+    "constraint": [
+        { "datatype": "string", "surface": "lov", "lov": "gender" },
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format":       "noop",
+    "label":        "Gender",
+    "help":         "A long text to describe the field in markdown syntax"
+}

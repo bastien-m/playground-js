@@ -1,0 +1,15 @@
+{
+    "id": "source.touchPointNameId",
+    "structure": "source",
+    "path": "source[].touchPointNameId",
+    "column": "source.touch_point_name_id",
+    "prepare": "empty_string_as_null",
+    "constraint": [
+        { "datatype": "string", "surface": "not_empty_string" },
+        { "datatype": "undefined", "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format": "touch-point-id-by-name",
+    "label": "Touch point Id",
+    "help": "a long text to describe the field in markdown syntax"
+}

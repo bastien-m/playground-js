@@ -1,0 +1,15 @@
+{
+    "id":           "b2b.companyType",
+    "structure":    "b2b",
+    "path":         "b2b[].companyType",
+    "column":       "b2b.company_type",
+    "prepare":      "noop",
+    "constraint": [
+        { "datatype": "string", "surface": "lov", "lov": "company-type" },
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format":       "noop",
+    "label":        "Company type",
+    "help":         "A long text to describe the field in markdown syntax"
+}

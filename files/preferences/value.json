@@ -1,0 +1,14 @@
+{
+    "id":           "preferences.value",
+    "structure":    "preferences",
+    "path":         "preferences[].value",
+    "column":       "preference.preference_value",
+    "prepare":      "noop",    
+    "constraint": [
+        { "datatype": "string", "surface": "not_empty_string" }
+    ],
+    "format":       "noop",
+    "label":        "Preferences value",
+    "help":         "A long text to describe the field in markdown syntax"
+}
+

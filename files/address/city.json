@@ -1,0 +1,16 @@
+{
+    "id":           "address.city",
+    "structure":    "address",
+    "path":         "address[].city",
+    "column":       "address.city",
+    "prepare":      "empty_string_as_null",
+    "constraint": [
+        { "datatype": "string", "surface": "string_length", "string_length": { "min": 1, "max": 50 } },
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format":       "uppercase",
+    "label":        "City",
+    "help":         "a long text to describe the field in markdown syntax"
+}
+

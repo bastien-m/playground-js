@@ -1,0 +1,11 @@
+{
+    "id":           "collectorCreatedDate",
+    "path":         "collectorCreatedDate",
+    "column":       "collector_created_date",
+    "constraint": [
+        { "datatype": "string", "surface": "datetime", "datetime": {"min": "-P20Y", "max": "+PT1H"} }
+    ],
+    "format":       "noop",
+    "label":        "Collector created date",
+    "help":         "A long text to describe the field in markdown syntax"
+}

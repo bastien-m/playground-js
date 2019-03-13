@@ -1,0 +1,15 @@
+{
+    "id":           "activities.eventDate",
+    "structure":    "activities",
+    "path":         "activities[].eventDate",
+    "column":       "activity.event_date",
+    "prepare":      "empty_string_as_null",
+    "constraint": [
+        { "datatype": "string", "surface": "datetime", "datetime": {"min": "-P10Y", "max": "+P2Y"} },
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format":       "noop",
+    "label":        "Event date",
+    "help":         "A long text to describe the field in markdown syntax"
+}

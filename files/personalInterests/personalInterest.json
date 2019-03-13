@@ -1,0 +1,16 @@
+{
+    "id":           "personalInterests.personalInterest",
+    "structure":    "personalInterests",
+    "path":         "personalInterests[].personalInterest",
+    "column":       "personal_interest.personal_interest",
+    "prepare":      "empty_string_as_null",    
+    "constraint": [
+        { "datatype": "string", "surface": "not_empty_string" },
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format":       "noop",
+    "label":        "Personal interest",
+    "help":         "A long text to describe the field in markdown syntax"
+}
+

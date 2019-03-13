@@ -1,0 +1,11 @@
+{
+    "id":           "signature",
+    "path":         "signature",
+    "column":       "sign",
+    "constraint": [
+        {   "datatype":     "undefined" }
+    ],
+    "format":       "noop",
+    "label":        "Signature of the document",
+    "help":         "This value is computed by CDB API"
+}

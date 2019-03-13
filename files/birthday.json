@@ -1,0 +1,14 @@
+{
+    "id":           "birthday",
+    "path":         "birthday",
+    "column":       "dob",
+    "prepare":      "empty_string_as_null",
+    "constraint": [
+        { "datatype": "string", "surface": "date" },
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format":       "noop",
+    "label":        "Birthday",
+    "help":         "A long text to describe the field in markdown syntax"
+}

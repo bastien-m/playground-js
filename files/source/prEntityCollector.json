@@ -1,0 +1,13 @@
+{
+    "id":           "source.prEntityCollector",
+    "structure":    "source",
+    "path":         "source[].prEntity",
+    "column":       "source.pr_entity_collector",
+    "prepare":      "empty_string_as_null",    
+    "constraint": [
+        { "datatype": "string", "surface": "lov", "lov": "pr-entity-name" }
+    ],
+    "format":       "noop",
+    "label":        "External source name",
+    "help":         "A long text to describe the field in markdown syntax"
+}

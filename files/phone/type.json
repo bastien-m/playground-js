@@ -1,0 +1,13 @@
+{
+    "id":           "phone.type",
+    "structure":    "phone",
+    "path":         "phone[].type",
+    "column":       "phone.tel_type",
+    "prepare":      "noop",
+    "constraint": [
+        { "datatype": "string", "surface": "lov", "lov": "phone-type" }
+    ],
+    "format":       "noop",
+    "label":        "Phone type",
+    "help":         "A long text to describe the field in markdown syntax"
+}

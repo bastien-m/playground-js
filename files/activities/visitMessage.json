@@ -1,0 +1,16 @@
+{
+    "id":           "activities.visitMessage",
+    "structure":    "activities",
+    "path":         "activities[].visitMessage",
+    "column":       "activity.visit_message",
+    "prepare":      "empty_string_as_null",
+    "constraint": [
+        { "datatype": "string", "surface": "not_empty_string" },
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format":       "noop",
+    "label":        "Visit message",
+    "help":         "A long text to describe the field in markdown syntax"
+}
+

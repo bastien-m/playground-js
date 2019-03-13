@@ -1,0 +1,13 @@
+{
+    "id":           "activities.activityId",
+    "structure":    "activities",
+    "path":         "activities[].activityId",
+    "column":       "activity.activity_id",
+    "prepare":      "noop",
+    "constraint": [
+        { "datatype": "string", "surface": "not_empty_string" }
+    ],
+    "format":       "noop",
+    "label":        "Activity ID",
+    "help":         "A long text to describe the field in markdown syntax"
+}

@@ -1,0 +1,15 @@
+{
+    "id":           "b2b.industry",
+    "structure":    "b2b",
+    "path":         "b2b[].industry",
+    "column":       "b2b.industry",
+    "prepare":      "empty_string_as_null",
+    "constraint": [
+        { "datatype": "string", "surface": "not_empty_string"},
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format":       "noop",
+    "label":        "Industry",
+    "help":         "A long text to describe the field in markdown syntax"
+}

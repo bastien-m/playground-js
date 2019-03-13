@@ -1,0 +1,13 @@
+{
+    "id":           "source.type",
+    "structure":    "source",
+    "path":         "source[].system.type",
+    "column":       "source.source_type",
+    "prepare":      "empty_string_as_null",    
+    "constraint": [
+        { "datatype": "string", "surface": "lov", "lov": "source-name" }
+    ],
+    "format":       "noop",
+    "label":        "External source name",
+    "help":         "A long text to describe the field in markdown syntax"
+}

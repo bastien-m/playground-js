@@ -1,0 +1,15 @@
+{
+    "id":           "b2b.barId",
+    "structure":    "b2b",
+    "path":         "b2b[].barId",
+    "column":       "b2b.bar_id",
+    "prepare":      "empty_string_as_null",
+    "constraint": [
+        { "datatype": "string",    "surface":   "uuid" },
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format":       "noop",
+    "label":        "Bar id",
+    "help":         "A long text to describe the field in markdown syntax"
+}

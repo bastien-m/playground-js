@@ -1,0 +1,14 @@
+{
+    "id":           "brandId",
+    "path":         "brandId",
+    "column":       "brand_id",
+    "prepare":      "empty_string_as_null",
+    "constraint": [
+        { "datatype": "string", "surface": "uuid" },
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format":       "noop",
+    "label":        "Brand Id",
+    "help":         "A long text to describe the field in markdown syntax"
+}

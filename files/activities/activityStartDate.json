@@ -1,0 +1,15 @@
+{
+    "id":           "activities.activityStartDate",
+    "structure":    "activities",
+    "path":         "activities[].activityStartDate",
+    "column":       "activity.activity_start_date",
+    "prepare":      "empty_string_as_null",
+    "constraint": [
+        { "datatype": "string", "surface": "datetime", "datetime": {"min": "-P10Y", "max": "+P1Y"} },
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format":       "noop",
+    "label":        "Activity start date",
+    "help":         "A long text to describe the field in markdown syntax"
+}

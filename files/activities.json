@@ -1,0 +1,10 @@
+{
+    "id":           "activities",
+    "path":         "activities",
+    "constraint": [
+        { "datatype": "collection" , "surface": "array_length", "array_length": { "min": 0, "max": 30 } }
+    ],
+    "label":        "List of Activities",
+    "help":         "a long text to describe the field in markdown syntax"
+}
+

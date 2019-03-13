@@ -1,0 +1,14 @@
+{
+    "#":            "Definition to process the elements of an array (attention : element cannot be an object)",
+    "id":           "comTypePref.value",
+    "structure":    "comTypePref",
+    "path":         "comTypePref[]",
+    "column":       "com_type_pref.com_type_pref",
+    "constraint": [
+        { "datatype": "string", "surface": "lov", "lov": "com-type-preference-value" }
+    ],
+    "format":       "noop",
+    "label":        "Communication channel preference",
+    "help":         "A long text to describe the field in markdown syntax"
+}
+

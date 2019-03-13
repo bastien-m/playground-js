@@ -1,0 +1,13 @@
+{
+    "id":           "source.touchPointName",
+    "structure":    "source",
+    "path":         "source[].touchPointName",
+    "column":       "source.touch_point_name",
+    "prepare":      "empty_string_as_null",
+    "constraint": [
+        { "datatype": "string", "surface": "lov", "lov": "touch-point" }
+    ],
+    "format":       "noop",
+    "label":        "Touch point (Referential Touch point cdb)",
+    "help":         "A long text to describe the field in markdown syntax"
+}

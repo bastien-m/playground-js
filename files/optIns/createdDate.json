@@ -1,0 +1,15 @@
+{
+    "id":           "optIns.createdDate",
+    "structure":    "optIns",
+    "path":         "optIns[].createdDate",
+    "column":       "optin.created_date",
+    "prepare":      "empty_string_as_null",
+    "constraint": [
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null"}
+    ],
+    "format":       "collector-created-date",
+    "label":        "Optin collector created date",
+    "help":         "A long text to describe the field in markdown syntax"
+}
+

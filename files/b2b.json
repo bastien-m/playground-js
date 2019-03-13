@@ -1,0 +1,10 @@
+{
+    "id":           "b2b",
+    "path":         "b2b",
+    "constraint": [
+        { "datatype": "collection" , "surface": "array_length", "array_length": { "min": 0, "max": 5 } }
+    ],
+    "label":        "List of b2b",
+    "help":         "a long text to describe the field in markdown syntax"
+}
+

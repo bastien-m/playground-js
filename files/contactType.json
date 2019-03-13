@@ -1,0 +1,12 @@
+{
+    "id":           "contactType",
+    "path":         "contactType",
+    "column" :      "contact_type",
+    "constraint": [
+        { "datatype": "string", "surface": "lov", "lov": "contact-type" }
+    ],
+    "format":       "uppercase",
+    "label":        "Contact Type",
+    "help":         "A long text to describe the field in markdown syntax"
+}
+

@@ -1,0 +1,15 @@
+{
+    "id":           "activities.visitorNumber",
+    "structure":    "activities",
+    "path":         "activities[].visitorNumber",
+    "column":       "activity.visitor_nb",
+    "prepare":      "empty_string_as_null",
+    "constraint": [
+        { "datatype": "number"},
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "label":        "Visitor number",
+    "help":         "A long text to describe the field in markdown syntax"
+}
+

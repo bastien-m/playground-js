@@ -1,0 +1,15 @@
+{
+    "id":           "jobTitle",
+    "path":         "jobTitle",
+    "column":       "job_title",
+    "prepare":      "empty_string_as_null",
+    "constraint": [
+        { "datatype": "string", "surface": "not_empty_string" },
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format":       "uppercase",
+    "label":        "Job title",
+    "help":         "A long text to describe the field in markdown syntax"
+}
+

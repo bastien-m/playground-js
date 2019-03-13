@@ -1,0 +1,14 @@
+{
+    "id":           "phone.value",
+    "structure":    "phone",
+    "path":         "phone[].value",
+    "column":       "phone.tel_value",
+    "prepare":      "noop",
+    "constraint": [
+        { "datatype": "string", "surface": "not_empty_string" }
+    ],
+    "format":       "noop",
+    "label":        "Telephone number",
+    "help":         "A long text to describe the field in markdown syntax"
+}
+

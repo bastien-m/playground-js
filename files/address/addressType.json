@@ -1,0 +1,14 @@
+{
+    "id":           "address.addressType",
+    "structure":    "address",
+    "path":         "address[].addressType",
+    "column":       "address.address_type",
+    "prepare":      "empty_string_as_null",
+    "constraint": [
+        { "datatype": "string", "surface": "lov", "lov": "address-type", "serialize": "lowercase" }
+    ],
+    "format":       "noop",
+    "label":        "AddressType",
+    "help":         "a long text to describe the field in markdown syntax"
+}
+

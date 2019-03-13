@@ -1,0 +1,15 @@
+{
+    "id": "b2b.mainContactFlag",
+    "structure": "b2b",
+    "path": "b2b[].mainContactFlag",
+    "column": "b2b.main_contact_flag",
+    "prepare": "noop",
+    "constraint": [
+        { "datatype": "number", "surface": "in_array", "in_array": [0, 1] },
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }   
+    ],
+    "format": "noop",
+    "label": "Maint contact flag",
+    "help": "A long text to describe the field in markdown syntax"
+}

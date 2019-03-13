@@ -1,0 +1,15 @@
+{
+    "id":           "title",
+    "path":         "title",
+    "column":       "title",
+    "prepare":      "noop",
+    "constraint": [
+        { "datatype": "string", "surface": "lov", "lov": "title" },
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format":       "noop",
+    "label":        "Title",
+    "help":         "A long text to describe the field in markdown syntax"
+}
+

@@ -1,0 +1,354 @@
+[
+        {
+            "priority":	                1,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Unsubscription",
+            "activity_type":	        "Unsubscription"
+        },
+        {
+            "priority":	                2,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Profile Center",
+            "activity_type":	        "Profile Center"
+        },
+        {
+            "priority":	                3,
+            "pr_entity_id":             null,
+            "activity_record_source":   "E-Commerce",
+            "activity_type":	        "E-Commerce"
+        },{
+            "priority":                 4,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Direct Collect",
+            "activity_type":            "Visit"
+        },
+        {
+            "priority":                 5,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Direct Collect",
+            "activity_type":            "Newsletter"
+        },
+        {
+            "priority":                 6,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Direct Collect",
+            "activity_type":            "Program Subscription"
+        },
+        {
+            "priority":                 7,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Direct Collect",
+            "activity_type":            "Promotional Campaigns"
+        },{
+            "priority":                 8,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Direct Collect",
+            "activity_type":            "Survey"
+        },
+        {
+            "priority":                 9,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Webform",
+            "activity_type":            "Event"
+        },
+        {
+            "priority":                 10,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Webform",
+            "activity_type":            "Enquiry"
+        },
+        {
+            "priority":                 11,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Webform",
+            "activity_type":            "Contest"
+        },
+        {
+            "priority":                 12,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Webform",
+            "activity_type":            "Newsletter"
+        },
+        {
+            "priority":                 13,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Webform",
+            "activity_type":            "Program Subscription"
+        },
+        {
+            "priority":                 14,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Webform",
+            "activity_type":            "Promotional Campaigns"
+        },
+        {
+            "priority":                 15,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Webform",
+            "activity_type":            "Survey"
+        },
+        {
+            "priority":                 16,
+            "pr_entity_id":             null,
+            "activity_record_source":   "BrandWebsite",
+            "activity_type":            "Event"
+        },
+        {
+            "priority":                 17,
+            "pr_entity_id":             null,
+            "activity_record_source":   "BrandWebsite",
+            "activity_type":            "Enquiry"
+        },
+        {
+            "priority":                 18,
+            "pr_entity_id":             null,
+            "activity_record_source":   "BrandWebsite",
+            "activity_type":            "Contest"
+        },
+        {
+            "priority":                 19,
+            "pr_entity_id":             null,
+            "activity_record_source":   "BrandWebsite",
+            "activity_type":            "Newsletter"
+        },
+        {
+            "priority":                 20,
+            "pr_entity_id":             null,
+            "activity_record_source":   "BrandWebsite",
+            "activity_type":            "Program Subscription"
+        },
+        {
+            "priority":                 21,
+            "pr_entity_id":             null,
+            "activity_record_source":   "BrandWebsite",
+            "activity_type":            "Promotional Campaigns"
+        },
+        {
+            "priority":                 22,
+            "pr_entity_id":             null,
+            "activity_record_source":   "BrandWebsite",
+            "activity_type":            "Survey"
+        },
+        {
+            "priority":                 23,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Connected Bottle",
+            "activity_type":            "Event"
+        },
+        {
+            "priority":                 24,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Connected Bottle",
+            "activity_type":            "Enquiry"
+        },
+        {
+            "priority":                 25,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Connected Bottle",
+            "activity_type":            "Contest"
+        },
+        {
+            "priority":                 26,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Connected Bottle",
+            "activity_type":            "Newsletter"
+        },
+        {
+            "priority":                 27,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Connected Bottle",
+            "activity_type":            "Program Subscription"
+        },
+        {
+            "priority":                 28,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Connected Bottle",
+            "activity_type":            "Promotional Campaigns"
+        },
+        {
+            "priority":                 29,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Connected Bottle",
+            "activity_type":            "Survey"
+        },
+        {
+            "priority":                 30,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Ipad APP",
+            "activity_type":            "Visit"
+        },
+        {
+            "priority":                 31,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Ipad APP",
+            "activity_type":            "Event"
+        },
+        {
+            "priority":                 32,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Ipad APP",
+            "activity_type":            "Contest"
+        },
+        {
+            "priority":                 33,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Ipad APP",
+            "activity_type":            "Newsletter"
+        },
+        {
+            "priority":                 34,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Ipad APP",
+            "activity_type":            "Program Subscription"
+        },
+        {
+            "priority":                 35,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Ipad APP",
+            "activity_type":            "Promotional Campaigns"
+        },
+        {
+            "priority":                 36,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Mobile APP",
+            "activity_type":            "Visit"
+        },
+        {
+            "priority":                 37,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Mobile APP",
+            "activity_type":            "Event"
+        },
+        {
+            "priority":                 38,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Mobile APP",
+            "activity_type":            "Contest"
+        },
+        {
+            "priority":                 39,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Mobile APP",
+            "activity_type":            "Newsletter"
+        },
+        {
+            "priority":                 40,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Mobile APP",
+            "activity_type":            "Program Subscription"
+        },
+        {
+            "priority":                 41,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Mobile APP",
+            "activity_type":            "Promotional Campaigns"
+        },
+        {
+            "priority":                 42,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Social (Facebook)",
+            "activity_type":            "Event"
+        },
+        {
+            "priority":                 43,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Social (Facebook)",
+            "activity_type":            "Contest"
+        },
+        {
+            "priority":                 44,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Social (Facebook)",
+            "activity_type":            "Newsletter"
+        },
+        {
+            "priority":                 45,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Social (Facebook)",
+            "activity_type":            "Program Subscription"
+        },
+        {
+            "priority":                 46,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Social (Facebook)",
+            "activity_type":            "Promotional Campaigns"
+        },
+        {
+            "priority":                 47,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Social (Facebook)",
+            "activity_type":            "Survey"
+        },
+        {
+            "priority":                 48,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Social (Trumblr)",
+            "activity_type":            "Event"
+        },
+        {
+            "priority":                 49,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Social (Trumblr)",
+            "activity_type":            "Contest"
+        },
+        {
+            "priority":                 50,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Social (Trumblr)",
+            "activity_type":            "Newsletter"
+        },
+        {
+            "priority":                 51,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Social (Trumblr)",
+            "activity_type":            "Program Subscription"
+        },
+        {
+            "priority":                 52,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Social (Trumblr)",
+            "activity_type":            "Promotional Campaigns"
+        },
+        {
+            "priority":                 53,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Social (Trumblr)",
+            "activity_type":            "Survey"
+        },
+        {
+            "priority":                 54,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Social (Twitter)",
+            "activity_type":            "Event"
+        },
+        {
+            "priority":                 55,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Social (Twitter)",
+            "activity_type":            "Contest"
+        },
+        {
+            "priority":                 56,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Social (Twitter)",
+            "activity_type":            "Newsletter"
+        },
+        {
+            "priority":                 57,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Social (Twitter)",
+            "activity_type":            "Program Subscription"
+        },
+        {
+            "priority":                 58,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Social (Twitter)",
+            "activity_type":            "Promotional Campaigns"
+        },
+        {
+            "priority":                 59,
+            "pr_entity_id":             null,
+            "activity_record_source":   "Social (Twitter)",
+            "activity_type":            "Survey"
+        }
+    ]

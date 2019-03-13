@@ -1,0 +1,10 @@
+{
+    "id":           "address",
+    "path":         "address",
+    "constraint": [
+        { "datatype": "collection" , "surface": "array_length", "array_length": { "min": 0, "max": 5 } }
+    ],
+    "label":        "List of Address",
+    "help":         "a long text to describe the field in markdown syntax"
+}
+

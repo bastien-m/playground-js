@@ -1,0 +1,15 @@
+{
+    "id":           "activities.activityDescription",
+    "structure":    "activities",
+    "path":         "activities[].activityDescription",
+    "column":       "activity.activity_desc",
+    "prepare":      "empty_string_as_null",
+    "constraint": [
+        { "datatype": "string", "surface": "not_empty_string" },
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format":       "noop",
+    "label":        "Activity Description",
+    "help":         "A long text to describe the field in markdown syntax"
+}

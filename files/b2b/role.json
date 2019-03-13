@@ -1,0 +1,15 @@
+{
+    "id":           "b2b.role",
+    "structure":    "b2b",
+    "path":         "b2b[].role",
+    "column":       "b2b.role",
+    "prepare":      "noop",
+    "constraint": [
+        { "datatype": "string", "surface": "lov", "lov": "role" },
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format":       "noop",
+    "label":        "Role",
+    "help":         "A long text to describe the field in markdown syntax"
+}

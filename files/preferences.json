@@ -1,0 +1,10 @@
+{
+    "id":           "preferences",
+    "path":         "preferences",
+    "constraint": [
+        { "datatype": "collection" , "surface": "array_length", "array_length": { "min": 0, "max": 20 } }
+    ],
+    "label":        "List of preferences",
+    "help":         "a long text to describe the field in markdown syntax"
+}
+

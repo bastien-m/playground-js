@@ -1,0 +1,14 @@
+{
+    "id":           "localAttributes.value",
+    "structure":    "localAttributes",
+    "path":         "localAttributes[].value",
+    "column":       "local_attributes.value",
+    "prepare":      "empty_string_as_null",    
+    "constraint": [
+        { "datatype": "string", "surface": "not_empty_string", "string_length": { "min": 1, "max": 100 }}
+    ],
+    "format":       "noop",
+    "label":        "Local attribute value",
+    "help":         "A long text to describe the field in markdown syntax"
+}
+

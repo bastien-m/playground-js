@@ -1,0 +1,14 @@
+{
+    "id":           "prEntityCollector",
+    "path":         "prEntityCollector",
+    "column":       "pr_entity_collector",
+    "prepare":      "empty_string_as_null",
+    "constraint": [
+        { "datatype": "string", "surface": "lov", "lov": "pr-entity-name" },
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format":       "pr-entity-collector",
+    "label":        "PR Entity Name",
+    "help":         "A long text to describe the field in markdown syntax"
+}

@@ -1,0 +1,13 @@
+{
+    "#":            "Definition to process the elements of an array (attention : element cannot be an object)",
+    "id":           "comChannelPref.value",
+    "structure":    "comChannelPref",
+    "path":         "comChannelPref[]",
+    "column":       "channel_pref.com_channel_pref",
+    "constraint": [
+        { "datatype": "string", "surface": "lov", "lov": "channel-preference" }
+    ],
+    "format":       "noop",
+    "label":        "Communication channel preference",
+    "help":         "A long text to describe the field in markdown syntax"
+}

@@ -1,0 +1,14 @@
+{
+    "id":           "email",
+    "path":         "email",
+    "column":       "email",
+    "prepare":      "empty_string_as_null",
+    "constraint": [
+        { "datatype": "string",     "surface": ["email", "string_length"], "string_length": { "min": 1, "max": 255} },
+        { "datatype": "undefined",  "serialize": "undefined_as_null" },
+        { "datatype": "null" }
+    ],
+    "format":       "lowercase",
+    "label":        "Email",
+    "help":         "A long text to describe the field in markdown syntax"
+}

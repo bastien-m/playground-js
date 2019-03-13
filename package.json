@@ -1,0 +1,22 @@
+{
+  "name": "add-constraint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "file.js",
+  "scripts": {
+    "start": "node file",
+    "clean": "node clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.0",
+    "jwks-rsa": "^1.4.0",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "request": "^2.88.0",
+    "rxjs": "^6.3.3",
+    "underscore": "^1.9.1"
+  },
+  "author": "me",
+  "license": "ISC"
+}
