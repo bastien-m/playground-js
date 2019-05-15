@@ -12,6 +12,9 @@ function second () {
 }
 
 var b = 2
+var a = 1
+
+console.log(second())
 
 const res = second.bind({b})()
 

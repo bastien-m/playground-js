@@ -15,15 +15,6 @@ Promise.all([1,2,3,4].map(v => {
 })
 
 
-new Promise((resolve, reject) => {
-    resolve()
-})
-.then(() => {
-    console.log('here')
-}, () => {
-    console.log('there')
-})
-
 
 
 Promise.resolve('success -1')
@@ -45,7 +36,19 @@ const error$ = () => {
     return Promise.resolve('error')
 }
 
-Promise.all([first$, error$, second$])
-    .then(() => console.log('success'))
+Promise.all([null, null, null])
+    .then(() => console.log('success!!'))
     .catch(err => console.log(err))
+
+
+// Promise.resolve('hello')
+// .then(res => console.log(res))
+// .then(() => {
+//     console.log('end')
+// })
+// .then(() => {
+//     console.log('after the end')
+// })
+
+
 

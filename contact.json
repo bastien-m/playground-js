@@ -1,0 +1,510 @@
+{
+    "id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+    "etag": 2,
+    "contact_type": "B2C",
+    "pr_entity_activator_id": "99488cf2-0320-45b9-b4de-a8b5e1ffaa75",
+    "pr_entity_activator": "SFMC TRAINING HQ",
+    "brand_id": "018b757b-10b2-11e8-8388-31baf6f57c7e",
+    "brand": "PJTest",
+    "gender": "M",
+    "title": "Mr.",
+    "first_name": "Sampletest073",
+    "last_name": "Jsontest017",
+    "dob": "1990-01-01",
+    "email": "samplebastien016@jsontest.com",
+    "country_code": "FR",
+    "language_code": "fr",
+    "job_title": "SAMPLEJSON",
+    "nps": "1",
+    "contact_group_id": null,
+    "contact_end_of_life": "2019-06-02T09:34:00.000Z",
+    "collector_end_date_visibility": "2019-01-02T10:34:00.000Z",
+    "activator_end_date_visibility": "2019-06-02T09:34:00.000Z",
+    "row_created": "2018-10-03T13:19:08.000Z",
+    "row_updated": "2018-10-04T07:12:56.000Z",
+    "row_state": "consolidated",
+    "dedup_version": 7,
+    "job_id": null,
+    "log": "{\"recursion_performed\":1,\"recursion_max\":1,\"deps\":{\"a790f8a0-c7a4-11e8-b2ef-0fa6887a8441\":[\"d6804440-c70e-11e8-b2ef-0fa6887a8441\"]},\"loads\":[{\"sql_bound\":\"SELECT e.id AS id, 'a790f8a0-c7a4-11e8-b2ef-0fa6887a8441' AS from_id FROM entry e   WHERE (((e.contact_id=NULL AND e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C'))) AND e.id not in ('a790f8a0-c7a4-11e8-b2ef-0fa6887a8441') AND e.row_state IN ('ready','consolidated') UNION SELECT e.id AS id, 'a790f8a0-c7a4-11e8-b2ef-0fa6887a8441' AS from_id FROM entry e LEFT OUTER JOIN entry_source x ON x.entry_id = e.id LEFT OUTER JOIN entry_identifier i ON i.entry_id = e.id LEFT OUTER JOIN entry_phone p ON p.entry_id = e.id LEFT OUTER JOIN entry_address a ON a.entry_id = e.id WHERE (((e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('facebook' IS NULL)) AND ((p.tel_value IS NULL) AND ('00000000003' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('mobile' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) OR ('TESTACTIVATION2' IS NULL) OR (a.address<>'TESTACTIVATION2')) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('facebook' IS NULL)) AND ((p.tel_value IS NULL) AND ('1111111115' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('personal' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) OR ('TESTACTIVATION2' IS NULL) OR (a.address<>'TESTACTIVATION2')) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('facebook' IS NULL)) AND ((p.tel_value IS NULL) AND ('2222222227' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('professional' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) OR ('TESTACTIVATION2' IS NULL) OR (a.address<>'TESTACTIVATION2')) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('twitter' IS NULL)) AND ((p.tel_value IS NULL) AND ('00000000003' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('mobile' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) OR ('TESTACTIVATION2' IS NULL) OR (a.address<>'TESTACTIVATION2')) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('twitter' IS NULL)) AND ((p.tel_value IS NULL) AND ('1111111115' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('personal' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) OR ('TESTACTIVATION2' IS NULL) OR (a.address<>'TESTACTIVATION2')) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('twitter' IS NULL)) AND ((p.tel_value IS NULL) AND ('2222222227' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('professional' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) OR ('TESTACTIVATION2' IS NULL) OR (a.address<>'TESTACTIVATION2')) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('instagram' IS NULL)) AND ((p.tel_value IS NULL) AND ('00000000003' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('mobile' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) OR ('TESTACTIVATION2' IS NULL) OR (a.address<>'TESTACTIVATION2')) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('instagram' IS NULL)) AND ((p.tel_value IS NULL) AND ('1111111115' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('personal' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) OR ('TESTACTIVATION2' IS NULL) OR (a.address<>'TESTACTIVATION2')) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('instagram' IS NULL)) AND ((p.tel_value IS NULL) AND ('2222222227' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('professional' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) OR ('TESTACTIVATION2' IS NULL) OR (a.address<>'TESTACTIVATION2')) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('weibo' IS NULL)) AND ((p.tel_value IS NULL) AND ('00000000003' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('mobile' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) OR ('TESTACTIVATION2' IS NULL) OR (a.address<>'TESTACTIVATION2')) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('weibo' IS NULL)) AND ((p.tel_value IS NULL) AND ('1111111115' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('personal' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) OR ('TESTACTIVATION2' IS NULL) OR (a.address<>'TESTACTIVATION2')) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('weibo' IS NULL)) AND ((p.tel_value IS NULL) AND ('2222222227' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('professional' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) OR ('TESTACTIVATION2' IS NULL) OR (a.address<>'TESTACTIVATION2')) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('wechat' IS NULL)) AND ((p.tel_value IS NULL) AND ('00000000003' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('mobile' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) OR ('TESTACTIVATION2' IS NULL) OR (a.address<>'TESTACTIVATION2')) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('wechat' IS NULL)) AND ((p.tel_value IS NULL) AND ('1111111115' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('personal' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) OR ('TESTACTIVATION2' IS NULL) OR (a.address<>'TESTACTIVATION2')) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('wechat' IS NULL)) AND ((p.tel_value IS NULL) AND ('2222222227' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('professional' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) OR ('TESTACTIVATION2' IS NULL) OR (a.address<>'TESTACTIVATION2')) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))))) AND e.id not in ('a790f8a0-c7a4-11e8-b2ef-0fa6887a8441') AND e.row_state IN ('ready','consolidated') UNION SELECT e.id AS id, 'a790f8a0-c7a4-11e8-b2ef-0fa6887a8441' AS from_id FROM entry e   WHERE (((e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND e.email='samplebastien017@jsontest.com' AND e.last_name='Jsontest017'))) AND e.id not in ('a790f8a0-c7a4-11e8-b2ef-0fa6887a8441') AND e.row_state IN ('ready','consolidated') UNION SELECT e.id AS id, 'a790f8a0-c7a4-11e8-b2ef-0fa6887a8441' AS from_id FROM entry e   WHERE (((e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND e.dob='1990-01-01' AND e.email='samplebastien017@jsontest.com' AND e.first_name='Sampletest074'))) AND e.id not in ('a790f8a0-c7a4-11e8-b2ef-0fa6887a8441') AND e.row_state IN ('ready','consolidated') UNION SELECT e.id AS id, 'a790f8a0-c7a4-11e8-b2ef-0fa6887a8441' AS from_id FROM entry e LEFT OUTER JOIN entry_address a ON a.entry_id = e.id WHERE (((e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND e.email='samplebastien017@jsontest.com' AND a.address='TESTACTIVATION2'))) AND e.id not in ('a790f8a0-c7a4-11e8-b2ef-0fa6887a8441') AND e.row_state IN ('ready','consolidated') UNION SELECT e.id AS id, 'a790f8a0-c7a4-11e8-b2ef-0fa6887a8441' AS from_id FROM entry e LEFT OUTER JOIN entry_phone p ON p.entry_id = e.id WHERE (((e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND p.tel_value='00000000003' AND e.email='samplebastien017@jsontest.com' AND p.tel_type='mobile') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND p.tel_value='1111111115' AND e.email='samplebastien017@jsontest.com' AND p.tel_type='mobile') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND p.tel_value='2222222227' AND e.email='samplebastien017@jsontest.com' AND p.tel_type='mobile'))) AND e.id not in ('a790f8a0-c7a4-11e8-b2ef-0fa6887a8441') AND e.row_state IN ('ready','consolidated') UNION SELECT e.id AS id, 'a790f8a0-c7a4-11e8-b2ef-0fa6887a8441' AS from_id FROM entry e LEFT OUTER JOIN entry_phone p ON p.entry_id = e.id WHERE (((e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND p.tel_value='00000000003' AND e.email='samplebastien017@jsontest.com' AND p.tel_type='personal') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND p.tel_value='1111111115' AND e.email='samplebastien017@jsontest.com' AND p.tel_type='personal') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND p.tel_value='2222222227' AND e.email='samplebastien017@jsontest.com' AND p.tel_type='personal'))) AND e.id not in ('a790f8a0-c7a4-11e8-b2ef-0fa6887a8441') AND e.row_state IN ('ready','consolidated') UNION SELECT e.id AS id, 'a790f8a0-c7a4-11e8-b2ef-0fa6887a8441' AS from_id FROM entry e LEFT OUTER JOIN entry_identifier i ON i.entry_id = e.id WHERE (((e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND i.value='193848201038491933' AND e.email='samplebastien017@jsontest.com' AND i.identifier_type='facebook') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND i.value='193848201038491933' AND e.email='samplebastien017@jsontest.com' AND i.identifier_type='twitter') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND i.value='193848201038491933' AND e.email='samplebastien017@jsontest.com' AND i.identifier_type='instagram') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND i.value='193848201038491933' AND e.email='samplebastien017@jsontest.com' AND i.identifier_type='weibo') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND i.value='193848201038491933' AND e.email='samplebastien017@jsontest.com' AND i.identifier_type='wechat'))) AND e.id not in ('a790f8a0-c7a4-11e8-b2ef-0fa6887a8441') AND e.row_state IN ('ready','consolidated') UNION SELECT e.id AS id, 'a790f8a0-c7a4-11e8-b2ef-0fa6887a8441' AS from_id FROM entry e LEFT OUTER JOIN entry_source x ON x.entry_id = e.id WHERE (((e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND x.external_id=NULL AND e.email='samplebastien017@jsontest.com' AND x.source_type=NULL))) AND e.id not in ('a790f8a0-c7a4-11e8-b2ef-0fa6887a8441') AND e.row_state IN ('ready','consolidated') UNION SELECT e.id AS id, 'a790f8a0-c7a4-11e8-b2ef-0fa6887a8441' AS from_id FROM entry e LEFT OUTER JOIN entry_phone p ON p.entry_id = e.id WHERE (((e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND p.tel_value='00000000003' AND e.last_name='Jsontest017' AND p.tel_type='mobile') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND p.tel_value='1111111115' AND e.last_name='Jsontest017' AND p.tel_type='mobile') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND p.tel_value='2222222227' AND e.last_name='Jsontest017' AND p.tel_type='mobile'))) AND e.id not in ('a790f8a0-c7a4-11e8-b2ef-0fa6887a8441') AND e.row_state IN ('ready','consolidated') UNION SELECT e.id AS id, 'a790f8a0-c7a4-11e8-b2ef-0fa6887a8441' AS from_id FROM entry e LEFT OUTER JOIN entry_identifier i ON i.entry_id = e.id WHERE (((e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND i.value='193848201038491933' AND e.last_name='Jsontest017' AND i.identifier_type='facebook') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND i.value='193848201038491933' AND e.last_name='Jsontest017' AND i.identifier_type='twitter') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND i.value='193848201038491933' AND e.last_name='Jsontest017' AND i.identifier_type='instagram') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND i.value='193848201038491933' AND e.last_name='Jsontest017' AND i.identifier_type='weibo') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND i.value='193848201038491933' AND e.last_name='Jsontest017' AND i.identifier_type='wechat'))) AND e.id not in ('a790f8a0-c7a4-11e8-b2ef-0fa6887a8441') AND e.row_state IN ('ready','consolidated') UNION SELECT e.id AS id, 'a790f8a0-c7a4-11e8-b2ef-0fa6887a8441' AS from_id FROM entry e LEFT OUTER JOIN entry_source x ON x.entry_id = e.id WHERE (((e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND x.external_id=NULL AND e.last_name='Jsontest017' AND x.source_type=NULL))) AND e.id not in ('a790f8a0-c7a4-11e8-b2ef-0fa6887a8441') AND e.row_state IN ('ready','consolidated') UNION SELECT e.id AS id, 'a790f8a0-c7a4-11e8-b2ef-0fa6887a8441' AS from_id FROM entry e LEFT OUTER JOIN entry_address a ON a.entry_id = e.id WHERE (((e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND e.first_name='Sampletest074' AND e.last_name='Jsontest017' AND a.address='TESTACTIVATION2'))) AND e.id not in ('a790f8a0-c7a4-11e8-b2ef-0fa6887a8441') AND e.row_state IN ('ready','consolidated') UNION SELECT e.id AS id, 'a790f8a0-c7a4-11e8-b2ef-0fa6887a8441' AS from_id FROM entry e   WHERE (((e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND e.dob='1990-01-01' AND e.last_name='Jsontest017' AND e.first_name='Sampletest074'))) AND e.id not in ('a790f8a0-c7a4-11e8-b2ef-0fa6887a8441') AND e.row_state IN ('ready','consolidated') UNION SELECT e.id AS id, 'a790f8a0-c7a4-11e8-b2ef-0fa6887a8441' AS from_id FROM entry e LEFT OUTER JOIN entry_address a ON a.entry_id = e.id WHERE (((e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND e.dob='1990-01-01' AND e.last_name='Jsontest017' AND a.address='TESTACTIVATION2'))) AND e.id not in ('a790f8a0-c7a4-11e8-b2ef-0fa6887a8441') AND e.row_state IN ('ready','consolidated') UNION SELECT e.id AS id, 'a790f8a0-c7a4-11e8-b2ef-0fa6887a8441' AS from_id FROM entry e LEFT OUTER JOIN entry_address a ON a.entry_id = e.id WHERE (((e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND e.dob='1990-01-01' AND e.first_name='Sampletest074' AND a.address='TESTACTIVATION2'))) AND e.id not in ('a790f8a0-c7a4-11e8-b2ef-0fa6887a8441') AND e.row_state IN ('ready','consolidated') UNION SELECT e.id AS id, 'a790f8a0-c7a4-11e8-b2ef-0fa6887a8441' AS from_id FROM entry e LEFT OUTER JOIN entry_phone p ON p.entry_id = e.id WHERE (((e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND e.dob='1990-01-01' AND p.tel_value='00000000003' AND e.first_name='Sampletest074' AND p.tel_type='mobile') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND e.dob='1990-01-01' AND p.tel_value='1111111115' AND e.first_name='Sampletest074' AND p.tel_type='mobile') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND e.dob='1990-01-01' AND p.tel_value='2222222227' AND e.first_name='Sampletest074' AND p.tel_type='mobile'))) AND e.id not in ('a790f8a0-c7a4-11e8-b2ef-0fa6887a8441') AND e.row_state IN ('ready','consolidated') UNION SELECT e.id AS id, 'a790f8a0-c7a4-11e8-b2ef-0fa6887a8441' AS from_id FROM entry e LEFT OUTER JOIN entry_phone p ON p.entry_id = e.id WHERE (((e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND e.dob='1990-01-01' AND p.tel_value='00000000003' AND e.first_name='Sampletest074' AND p.tel_type='personal') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND e.dob='1990-01-01' AND p.tel_value='1111111115' AND e.first_name='Sampletest074' AND p.tel_type='personal') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND e.dob='1990-01-01' AND p.tel_value='2222222227' AND e.first_name='Sampletest074' AND p.tel_type='personal'))) AND e.id not in ('a790f8a0-c7a4-11e8-b2ef-0fa6887a8441') AND e.row_state IN ('ready','consolidated') UNION SELECT e.id AS id, 'a790f8a0-c7a4-11e8-b2ef-0fa6887a8441' AS from_id FROM entry e LEFT OUTER JOIN entry_identifier i ON i.entry_id = e.id WHERE (((e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND e.dob='1990-01-01' AND i.value='193848201038491933' AND e.first_name='Sampletest074' AND i.identifier_type='facebook') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND e.dob='1990-01-01' AND i.value='193848201038491933' AND e.first_name='Sampletest074' AND i.identifier_type='twitter') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND e.dob='1990-01-01' AND i.value='193848201038491933' AND e.first_name='Sampletest074' AND i.identifier_type='instagram') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND e.dob='1990-01-01' AND i.value='193848201038491933' AND e.first_name='Sampletest074' AND i.identifier_type='weibo') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND e.dob='1990-01-01' AND i.value='193848201038491933' AND e.first_name='Sampletest074' AND i.identifier_type='wechat'))) AND e.id not in ('a790f8a0-c7a4-11e8-b2ef-0fa6887a8441') AND e.row_state IN ('ready','consolidated') UNION SELECT e.id AS id, 'a790f8a0-c7a4-11e8-b2ef-0fa6887a8441' AS from_id FROM entry e LEFT OUTER JOIN entry_source x ON x.entry_id = e.id WHERE (((e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND e.dob='1990-01-01' AND x.external_id=NULL AND e.first_name='Sampletest074' AND x.source_type=NULL))) AND e.id not in ('a790f8a0-c7a4-11e8-b2ef-0fa6887a8441') AND e.row_state IN ('ready','consolidated') UNION SELECT e.id AS id, 'a790f8a0-c7a4-11e8-b2ef-0fa6887a8441' AS from_id FROM entry e LEFT OUTER JOIN entry_identifier i ON i.entry_id = e.id WHERE (((e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND e.country_code='FR' AND i.identifier_type='official-document' AND i.value='193848201038491933') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND e.country_code='FR' AND i.identifier_type='official-document' AND i.value='193848201038491933') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND e.country_code='FR' AND i.identifier_type='official-document' AND i.value='193848201038491933') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND e.country_code='FR' AND i.identifier_type='official-document' AND i.value='193848201038491933') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND e.country_code='FR' AND i.identifier_type='official-document' AND i.value='193848201038491933'))) AND e.id not in ('a790f8a0-c7a4-11e8-b2ef-0fa6887a8441') AND e.row_state IN ('ready','consolidated') UNION SELECT e.id AS id, 'a790f8a0-c7a4-11e8-b2ef-0fa6887a8441' AS from_id FROM entry e LEFT OUTER JOIN entry_source x ON x.entry_id = e.id LEFT OUTER JOIN entry_identifier i ON i.entry_id = e.id LEFT OUTER JOIN entry_phone p ON p.entry_id = e.id LEFT OUTER JOIN entry_address a ON a.entry_id = e.id WHERE (((e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('facebook' IS NULL)) AND ((p.tel_value IS NULL) AND ('00000000003' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('mobile' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND e.dob='1990-01-01' AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('facebook' IS NULL)) AND ((p.tel_value IS NULL) AND ('1111111115' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('personal' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND e.dob='1990-01-01' AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('facebook' IS NULL)) AND ((p.tel_value IS NULL) AND ('2222222227' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('professional' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND e.dob='1990-01-01' AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('twitter' IS NULL)) AND ((p.tel_value IS NULL) AND ('00000000003' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('mobile' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND e.dob='1990-01-01' AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('twitter' IS NULL)) AND ((p.tel_value IS NULL) AND ('1111111115' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('personal' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND e.dob='1990-01-01' AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('twitter' IS NULL)) AND ((p.tel_value IS NULL) AND ('2222222227' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('professional' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND e.dob='1990-01-01' AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('instagram' IS NULL)) AND ((p.tel_value IS NULL) AND ('00000000003' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('mobile' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND e.dob='1990-01-01' AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('instagram' IS NULL)) AND ((p.tel_value IS NULL) AND ('1111111115' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('personal' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND e.dob='1990-01-01' AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('instagram' IS NULL)) AND ((p.tel_value IS NULL) AND ('2222222227' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('professional' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND e.dob='1990-01-01' AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('weibo' IS NULL)) AND ((p.tel_value IS NULL) AND ('00000000003' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('mobile' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND e.dob='1990-01-01' AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('weibo' IS NULL)) AND ((p.tel_value IS NULL) AND ('1111111115' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('personal' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND e.dob='1990-01-01' AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('weibo' IS NULL)) AND ((p.tel_value IS NULL) AND ('2222222227' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('professional' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND e.dob='1990-01-01' AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('wechat' IS NULL)) AND ((p.tel_value IS NULL) AND ('00000000003' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('mobile' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND e.dob='1990-01-01' AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('wechat' IS NULL)) AND ((p.tel_value IS NULL) AND ('1111111115' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('personal' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND e.dob='1990-01-01' AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))) OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('wechat' IS NULL)) AND ((p.tel_value IS NULL) AND ('2222222227' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('professional' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND e.dob='1990-01-01' AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND ((e.first_name IS NULL) AND ('Sampletest074' IS NULL))))) AND e.id not in ('a790f8a0-c7a4-11e8-b2ef-0fa6887a8441') AND e.row_state IN ('ready','consolidated') UNION SELECT e.id AS id, 'a790f8a0-c7a4-11e8-b2ef-0fa6887a8441' AS from_id FROM entry e LEFT OUTER JOIN entry_source x ON x.entry_id = e.id LEFT OUTER JOIN entry_identifier i ON i.entry_id = e.id LEFT OUTER JOIN entry_phone p ON p.entry_id = e.id LEFT OUTER JOIN entry_address a ON a.entry_id = e.id WHERE (((e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('facebook' IS NULL)) AND ((p.tel_value IS NULL) AND ('00000000003' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('mobile' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND e.first_name='Sampletest074') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('facebook' IS NULL)) AND ((p.tel_value IS NULL) AND ('1111111115' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('personal' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND e.first_name='Sampletest074') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('facebook' IS NULL)) AND ((p.tel_value IS NULL) AND ('2222222227' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('professional' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND e.first_name='Sampletest074') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('twitter' IS NULL)) AND ((p.tel_value IS NULL) AND ('00000000003' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('mobile' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND e.first_name='Sampletest074') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('twitter' IS NULL)) AND ((p.tel_value IS NULL) AND ('1111111115' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('personal' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND e.first_name='Sampletest074') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('twitter' IS NULL)) AND ((p.tel_value IS NULL) AND ('2222222227' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('professional' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND e.first_name='Sampletest074') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('instagram' IS NULL)) AND ((p.tel_value IS NULL) AND ('00000000003' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('mobile' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND e.first_name='Sampletest074') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('instagram' IS NULL)) AND ((p.tel_value IS NULL) AND ('1111111115' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('personal' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND e.first_name='Sampletest074') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('instagram' IS NULL)) AND ((p.tel_value IS NULL) AND ('2222222227' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('professional' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND e.first_name='Sampletest074') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('weibo' IS NULL)) AND ((p.tel_value IS NULL) AND ('00000000003' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('mobile' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND e.first_name='Sampletest074') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('weibo' IS NULL)) AND ((p.tel_value IS NULL) AND ('1111111115' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('personal' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND e.first_name='Sampletest074') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('weibo' IS NULL)) AND ((p.tel_value IS NULL) AND ('2222222227' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('professional' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND e.first_name='Sampletest074') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('wechat' IS NULL)) AND ((p.tel_value IS NULL) AND ('00000000003' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('mobile' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND e.first_name='Sampletest074') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('wechat' IS NULL)) AND ((p.tel_value IS NULL) AND ('1111111115' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('personal' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND e.first_name='Sampletest074') OR (e.brand_id='018b757b-10b2-11e8-8388-31baf6f57c7e' AND e.contact_type='B2C' AND ((x.external_id IS NULL) AND (NULL IS NULL)) AND ((i.value IS NULL) AND ('193848201038491933' IS NULL)) AND ((i.identifier_type IS NULL) AND ('wechat' IS NULL)) AND ((p.tel_value IS NULL) AND ('2222222227' IS NULL)) AND (p.tel_type='mobile' OR ((p.tel_type IS NULL) AND ('professional' IS NULL)) OR p.tel_type='personal') AND ((a.address IS NULL) AND ('TESTACTIVATION2' IS NULL)) AND ((e.dob IS NULL) AND ('1990-01-01' IS NULL)) AND ((e.last_name IS NULL) AND ('Jsontest017' IS NULL)) AND e.email='samplebastien017@jsontest.com' AND e.first_name='Sampletest074'))) AND e.id not in ('a790f8a0-c7a4-11e8-b2ef-0fa6887a8441') AND e.row_state IN ('ready','consolidated')\"}],\"truncated_entries\":[\"d6804440-c70e-11e8-b2ef-0fa6887a8441\"]}",
+    "duplicate": 0,
+    "active": 1,
+    "eol_cause": null,
+    "eol_touchpoint": null,
+    "address": [
+        {
+            "id": "eab45190-c7a4-11e8-be89-e114689a1b89",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "address_type": "main",
+            "address": "TESTACTIVATION2",
+            "postal_code": "75000",
+            "city": "PARIS",
+            "state": "IDF",
+            "province": "NA",
+            "country": "FRANCE",
+            "country_code": "FR"
+        }
+    ],
+    "activity": [
+        {
+            "id": "eab4edd0-c7a4-11e8-be89-e114689a1b89",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "pr_entity_collector": "BALLANTINES",
+            "brand": "PJTest",
+            "activity_id": "API_TRAINING_SAMPLEJSON_SFMCTRAININGHQ",
+            "activity_name": "SAMPLEJSON",
+            "activity_type": "Training",
+            "activity_start_date": "2018-09-11 00:00:00",
+            "activity_end_date": "2018-09-11 00:00:00",
+            "event_date": "2018-09-11 11:34:00",
+            "activity_desc": "Test int",
+            "url": "testint.com1",
+            "activity_place": "Paris",
+            "enquiry_topic": "Event1",
+            "enquiry_message": "Invitation1",
+            "pref_visit_date": "2018-09-11 11:34:00",
+            "pref_visit_time": "15h",
+            "visit_message": "Visit Topic",
+            "visit_category": "Type of visit",
+            "language": "fr",
+            "visitor_nb_children": 2,
+            "visitor_nb": 1,
+            "visit_type": "Event",
+            "tour_selection": "Random",
+            "created_date": "2018-10-02 11:34:00",
+            "updated_date": "2018-10-04 07:11:05"
+        },
+        {
+            "id": "eab4edd1-c7a4-11e8-be89-e114689a1b89",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "pr_entity_collector": "BALLANTINES",
+            "brand": "PJTest",
+            "activity_id": "API_TRAINING_SAMPLEJSON_SFMCTRAININGHQ",
+            "activity_name": "SAMPLEJSON",
+            "activity_type": "Training",
+            "activity_start_date": "2018-09-11 00:00:00",
+            "activity_end_date": "2018-09-11 00:00:00",
+            "event_date": "2018-09-11 11:34:00",
+            "activity_desc": "Test int",
+            "url": "testint.com1",
+            "activity_place": "Paris",
+            "enquiry_topic": "Event1",
+            "enquiry_message": "Invitation1",
+            "pref_visit_date": "2018-09-11 11:34:00",
+            "pref_visit_time": "15h",
+            "visit_message": "Visit Topic",
+            "visit_category": "Type of visit",
+            "language": "fr",
+            "visitor_nb_children": 2,
+            "visitor_nb": 1,
+            "visit_type": "Event",
+            "tour_selection": "Random",
+            "created_date": "2018-10-02 11:34:00",
+            "updated_date": "2018-10-03 13:18:40"
+        }
+    ],
+    "b2b": [
+        {
+            "id": "eab49fb0-c7a4-11e8-be89-e114689a1b89",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "role": null,
+            "department": null,
+            "industry": null,
+            "vat_number": null,
+            "company_name": null,
+            "bar_id": null,
+            "bar_name": null,
+            "company_type": null,
+            "main_contact_flag": null,
+            "company_url": null
+        }
+    ],
+    "channel_pref": [
+        {
+            "id": "eab64d62-c7a4-11e8-be89-e114689a1b89",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "com_channel_pref": "Email"
+        }
+    ],
+    "com_type_pref": [
+        {
+            "id": "eab64d63-c7a4-11e8-be89-e114689a1b89",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "com_type_pref": "Event"
+        }
+    ],
+    "phone": [
+        {
+            "id": "eab5b121-c7a4-11e8-be89-e114689a1b89",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "tel_type": "mobile",
+            "tel_value": "00000000003"
+        },
+        {
+            "id": "eab5d830-c7a4-11e8-be89-e114689a1b89",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "tel_type": "personal",
+            "tel_value": "1111111115"
+        },
+        {
+            "id": "eab5d831-c7a4-11e8-be89-e114689a1b89",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "tel_type": "professional",
+            "tel_value": "2222222227"
+        }
+    ],
+    "personal_interest": [
+        {
+            "id": "eab62650-c7a4-11e8-be89-e114689a1b89",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "personal_interest": "sport"
+        },
+        {
+            "id": "eab62651-c7a4-11e8-be89-e114689a1b89",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "personal_interest": "cooking"
+        },
+        {
+            "id": "eab64d60-c7a4-11e8-be89-e114689a1b89",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "personal_interest": "sport"
+        },
+        {
+            "id": "eab64d61-c7a4-11e8-be89-e114689a1b89",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "personal_interest": "cooking"
+        }
+    ],
+    "preference": [
+        {
+            "id": "eab514e0-c7a4-11e8-be89-e114689a1b89",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "preference_type": "party1",
+            "preference_value": "party1"
+        },
+        {
+            "id": "eab5b120-c7a4-11e8-be89-e114689a1b89",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "preference_type": "party2",
+            "preference_value": "party2"
+        }
+    ],
+    "b2e": [
+        {
+            "id": "eab67470-c7a4-11e8-be89-e114689a1b89",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "department": null,
+            "employee_id": null
+        }
+    ],
+    "source": [
+        {
+            "id": "eab67471-c7a4-11e8-be89-e114689a1b89",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "pr_entity_collector": "BALLANTINES",
+            "touch_point_type": "BrandWebsite",
+            "touch_point_name": "TPNAMETESTSTAGINGV3",
+            "touch_point_name_id": "f8dd4180-398a-11e8-b164-397016367c66",
+            "touch_point_desc": null,
+            "source_type": null,
+            "source_database": null,
+            "source_table": null,
+            "external_id": null
+        }
+    ],
+    "perimeter": [
+        {
+            "id": "e8dbd232-c70e-11e8-b8b8-0f1d25940700",
+            "row_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "pr_entity_id": "04381880-d709-414a-867a-5067edaab67b",
+            "perimeter_type": "C",
+            "visibility_end": "2019-01-02 10:34:00"
+        },
+        {
+            "id": "e8dbd233-c70e-11e8-b8b8-0f1d25940700",
+            "row_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "pr_entity_id": "dac32e40-7392-489d-92cc-77de8881c9ce",
+            "perimeter_type": "C",
+            "visibility_end": "2019-01-02 10:34:00"
+        },
+        {
+            "id": "e8dbd234-c70e-11e8-b8b8-0f1d25940700",
+            "row_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "pr_entity_id": "d45178a8-3317-4026-b9a3-2387ed5c862f",
+            "perimeter_type": "C",
+            "visibility_end": "2019-01-02 10:34:00"
+        },
+        {
+            "id": "eab84930-c7a4-11e8-be89-e114689a1b89",
+            "row_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "pr_entity_id": "99488cf2-0320-45b9-b4de-a8b5e1ffaa75",
+            "perimeter_type": "A",
+            "visibility_end": "2019-06-02 09:34:00"
+        },
+        {
+            "id": "eab84931-c7a4-11e8-be89-e114689a1b89",
+            "row_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "pr_entity_id": "bae27d35-2d2e-4dbf-896d-ffcac9fcdf42",
+            "perimeter_type": "A",
+            "visibility_end": "2019-06-02 09:34:00"
+        },
+        {
+            "id": "eab84932-c7a4-11e8-be89-e114689a1b89",
+            "row_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "pr_entity_id": "d45178a8-3317-4026-b9a3-2387ed5c862f",
+            "perimeter_type": "A",
+            "visibility_end": "2019-06-02 09:34:00"
+        }
+    ],
+    "optin": [
+        {
+            "id": "eab6c290-c7a4-11e8-be89-e114689a1b89",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "brand_id": "018b757b-10b2-11e8-8388-31baf6f57c7e",
+            "brand": "PJTest",
+            "status": 1,
+            "created_date": "2018-10-02 11:34:00",
+            "updated_date": "2018-10-04 07:11:05"
+        }
+    ],
+    "local_attributes": [
+        {
+            "id": "eab6c291-c7a4-11e8-be89-e114689a1b89",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "pr_entity_collector": "BALLANTINES",
+            "category": "Preferred Drinks",
+            "local_attribute_type": "Cocktails",
+            "value": "Pina Colada",
+            "created_date": "2018-10-02 11:34:00",
+            "updated_date": "2018-10-04 07:11:05"
+        },
+        {
+            "id": "eab6c292-c7a4-11e8-be89-e114689a1b89",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "pr_entity_collector": "BALLANTINES",
+            "category": "Preferred Drinks",
+            "local_attribute_type": "Cocktails",
+            "value": "Royal Mojito",
+            "created_date": "2018-10-02 11:34:00",
+            "updated_date": "2018-10-04 07:11:05"
+        },
+        {
+            "id": "eab6c293-c7a4-11e8-be89-e114689a1b89",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "pr_entity_collector": "BALLANTINES",
+            "category": "Preferred Drinks",
+            "local_attribute_type": "Cocktails",
+            "value": "Pina Colada",
+            "created_date": "2018-10-02 11:34:00",
+            "updated_date": "2018-10-03 13:18:40"
+        },
+        {
+            "id": "eab6e9a0-c7a4-11e8-be89-e114689a1b89",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "pr_entity_collector": "BALLANTINES",
+            "category": "Preferred Drinks",
+            "local_attribute_type": "Cocktails",
+            "value": "Royal Mojito",
+            "created_date": "2018-10-02 11:34:00",
+            "updated_date": "2018-10-03 13:18:40"
+        }
+    ],
+    "identifier": [
+        {
+            "id": "eab7fb10-c7a4-11e8-be89-e114689a1b89",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "identifier_type": "facebook",
+            "value": "193848201038491933"
+        },
+        {
+            "id": "eab82220-c7a4-11e8-be89-e114689a1b89",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "identifier_type": "twitter",
+            "value": "193848201038491933"
+        },
+        {
+            "id": "eab82221-c7a4-11e8-be89-e114689a1b89",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "identifier_type": "instagram",
+            "value": "193848201038491933"
+        },
+        {
+            "id": "eab82222-c7a4-11e8-be89-e114689a1b89",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "identifier_type": "weibo",
+            "value": "193848201038491933"
+        },
+        {
+            "id": "eab82223-c7a4-11e8-be89-e114689a1b89",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "identifier_type": "wechat",
+            "value": "193848201038491933"
+        }
+    ],
+    "activation": [
+        {
+            "id": "12220d60-fc68-11e8-ac50-13283118cd39",
+            "etag": 1,
+            "row_created": "2018-12-10T10:40:55.000Z",
+            "row_updated": "2018-12-10T10:40:55.000Z",
+            "row_state": "init",
+            "row_type": "sync",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "ecrm_tool_db_id": "2227a8c1-2935-11e8-8963-ebb68b71b10a",
+            "job_id": "1215ff70-fc68-11e8-ac50-13283118cd39",
+            "instance_job_id": "1215ff71-fc68-11e8-ac50-13283118cd39",
+            "file_activation_id": null,
+            "bm_activation_id": "7e053662-2b8c-11e8-a97a-025af950ea74",
+            "log": null
+        },
+        {
+            "id": "1a0df200-fc68-11e8-a1d1-0165c5c65fba",
+            "etag": 1,
+            "row_created": "2018-12-10T10:41:08.000Z",
+            "row_updated": "2018-12-10T10:41:08.000Z",
+            "row_state": "init",
+            "row_type": "sync",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "ecrm_tool_db_id": "2227a8c1-2935-11e8-8963-ebb68b71b10a",
+            "job_id": "1a000f50-fc68-11e8-a1d1-0165c5c65fba",
+            "instance_job_id": "1a000f51-fc68-11e8-a1d1-0165c5c65fba",
+            "file_activation_id": null,
+            "bm_activation_id": "7e053662-2b8c-11e8-a97a-025af950ea74",
+            "log": null
+        },
+        {
+            "id": "1a0e6730-fc68-11e8-a1d1-0165c5c65fba",
+            "etag": 1,
+            "row_created": "2018-12-10T10:41:08.000Z",
+            "row_updated": "2018-12-10T10:41:08.000Z",
+            "row_state": "init",
+            "row_type": "sync",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "ecrm_tool_db_id": "2227a8c1-2935-11e8-8963-ebb68b71b10a",
+            "job_id": "1a000f50-fc68-11e8-a1d1-0165c5c65fba",
+            "instance_job_id": "1a000f51-fc68-11e8-a1d1-0165c5c65fba",
+            "file_activation_id": null,
+            "bm_activation_id": "7e053662-2b8c-11e8-a97a-025af950ea74",
+            "log": null
+        },
+        {
+            "id": "290dd1d0-fc68-11e8-9f45-970da8250c02",
+            "etag": 1,
+            "row_created": "2018-12-10T10:41:33.000Z",
+            "row_updated": "2018-12-10T10:41:33.000Z",
+            "row_state": "init",
+            "row_type": "sync",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "ecrm_tool_db_id": "2227a8c1-2935-11e8-8963-ebb68b71b10a",
+            "job_id": "29023910-fc68-11e8-9f45-970da8250c02",
+            "instance_job_id": "29023911-fc68-11e8-9f45-970da8250c02",
+            "file_activation_id": null,
+            "bm_activation_id": "7e053662-2b8c-11e8-a97a-025af950ea74",
+            "log": null
+        },
+        {
+            "id": "80530f75-fc63-11e8-8432-000c291b1e12",
+            "etag": 1,
+            "row_created": "2018-12-10T11:08:11.000Z",
+            "row_updated": "2018-12-10T11:08:11.000Z",
+            "row_state": "new",
+            "row_type": "sync",
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "ecrm_tool_db_id": "2227a8c1-2935-11e8-8963-ebb68b71b10a",
+            "job_id": null,
+            "instance_job_id": null,
+            "file_activation_id": null,
+            "bm_activation_id": "7e053662-2b8c-11e8-a97a-025af950ea74",
+            "log": null
+        }
+    ],
+    "segment": [],
+    "entry": [
+        {
+            "id": "a790f8a0-c7a4-11e8-b2ef-0fa6887a8441",
+            "sign": "107e4018d37e4cbfe7586032072a0377",
+            "entry_public_id": "a790f8a0-c7a4-11e8-b2ef-0fa6887a8441",
+            "pr_entity_collector_id": "04381880-d709-414a-867a-5067edaab67b",
+            "pr_entity_collector": "BALLANTINES",
+            "entry_v2_id": null,
+            "contact_v2_id": null,
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "etag": 3,
+            "entry_type": "consumer",
+            "contact_type": "B2C",
+            "brand_id": "018b757b-10b2-11e8-8388-31baf6f57c7e",
+            "brand": "PJTest",
+            "gender": "M",
+            "title": "Mr.",
+            "first_name": "Sampletest074",
+            "last_name": "Jsontest017",
+            "dob": "1990-01-01",
+            "email": "samplebastien017@jsontest.com",
+            "country_code": "FR",
+            "language_code": "fr",
+            "job_title": "SAMPLEJSON",
+            "nps": 1,
+            "collector_created_date": "2018-10-02 11:34:00",
+            "row_created": "2018-10-04T07:11:05.000Z",
+            "row_updated": "2018-10-04T07:12:56.000Z",
+            "row_state": "consolidated",
+            "job_id": null,
+            "log": null,
+            "collector_end_date_visibility": "2019-01-02T10:34:00.000Z",
+            "activator_end_date_visibility": "2019-06-02T09:34:00.000Z",
+            "entry_end_of_life": "2019-06-02T09:34:00.000Z",
+            "dedup_version": 7
+        },
+        {
+            "id": "d6804440-c70e-11e8-b2ef-0fa6887a8441",
+            "sign": "2025ba0b8ac331df112b4f23ac2527b4",
+            "entry_public_id": "d6804440-c70e-11e8-b2ef-0fa6887a8441",
+            "pr_entity_collector_id": "04381880-d709-414a-867a-5067edaab67b",
+            "pr_entity_collector": "BALLANTINES",
+            "entry_v2_id": null,
+            "contact_v2_id": null,
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "etag": 3,
+            "entry_type": "consumer",
+            "contact_type": "B2C",
+            "brand_id": "018b757b-10b2-11e8-8388-31baf6f57c7e",
+            "brand": "PJTest",
+            "gender": "M",
+            "title": "Mr.",
+            "first_name": "Sampletest073",
+            "last_name": "Jsontest017",
+            "dob": "1990-01-01",
+            "email": "samplebastien016@jsontest.com",
+            "country_code": "FR",
+            "language_code": "fr",
+            "job_title": "SAMPLEJSON",
+            "nps": 1,
+            "collector_created_date": "2018-10-02 11:34:00",
+            "row_created": "2018-10-03T13:18:40.000Z",
+            "row_updated": "2018-10-03T13:19:09.000Z",
+            "row_state": "consolidated",
+            "job_id": null,
+            "log": null,
+            "collector_end_date_visibility": "2019-01-02T10:34:00.000Z",
+            "activator_end_date_visibility": "2019-06-02T09:34:00.000Z",
+            "entry_end_of_life": "2019-06-02T09:34:00.000Z",
+            "dedup_version": 7
+        }
+    ],
+    "alias": [
+        {
+            "id": "ovMTm54Bj2T6XIm15zaqGZxO3OtFIza8OZjS8lM5duUfHWT147tj3vA93jPs",
+            "etag": 1,
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "row_created": "2018-10-04 07:12:56",
+            "row_updated": "2018-10-04 07:12:56"
+        },
+        {
+            "id": "QOTBljFoxV1vIwBw77VuunekTKR1hFkR2DVwOCRASKlczpMHSlFrjpBjTVpc",
+            "etag": 1,
+            "contact_id": "e8b81d90-c70e-11e8-b8b8-0f1d25940700",
+            "row_created": "2018-10-03 13:19:08",
+            "row_updated": "2018-10-03 13:19:08"
+        }
+    ],
+    "contact_v2": []
+}

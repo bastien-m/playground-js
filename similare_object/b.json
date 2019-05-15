@@ -1,0 +1,17 @@
+{
+    "firstname": "foo",
+    "lastname": "bar",
+    "address": {
+        "street": 1,
+        "country": "FR"
+    },
+    "favorites": [
+        {
+            "name": "angular",
+            "description": {
+                "type": "dev1",
+                "code": 1
+            }
+        }
+    ]
+}

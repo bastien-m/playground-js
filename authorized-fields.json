@@ -1,0 +1,53 @@
+{
+    "contact": {
+        "name": "contact",
+        "fields": [
+            "email",
+            "gender",
+            "title",
+            { "from": "first_name", "to": "firstname" },
+            { "from": "last_name", "to": "lastname" },
+            { "from": "dob", "to": "birthday" },
+            { "from": "job_title",  "to": "jobTitle" }, 
+            { "from": "row_updated", "to" :"updatedDate" }]
+    },
+    "address": {
+        "name": "address",
+        "fields": [
+            { "from": "address_type", "to": "addressType" },
+            "address",
+            { "from": "postal_code", "to": "postalCode" },
+            "city",
+            "state",
+            "province",
+            "country"]
+    },
+    "phone": {
+        "name": "phone",
+        "fields": [
+            { "from": "tel_type", "to": "type" },
+            { "from": "tel_value", "to": "value" }
+        ]
+    },
+    "source": {
+        "name": "source",
+        "fields": [
+            { "from": "pr_entity_collector", "to": "prEntityCollector" }
+        ]
+    },
+    "optin": {
+        "name": "optIns",
+        "fields": ["brand", "status"]
+    },
+    "preference": {
+        "name": "preferences",
+        "fields": [
+            { "from": "preference_type", "to": "type" },
+            { "from": "preference_value", "to": "value" }
+        ]
+    }, 
+    "personal_interest": {
+        "name": "personalInterests",
+        "fields": [ { "from": "personal_interest", "to": "personalInterests" } ]
+    }
+}
