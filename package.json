@@ -18,7 +18,7 @@
     "mongodb": "^3.2.3",
     "request": "^2.88.0",
     "rxjs": "^6.3.3",
-    "underscore": "^1.9.1"
+    "underscore": "^1.12.1"
   },
   "author": "me",
   "license": "ISC"
